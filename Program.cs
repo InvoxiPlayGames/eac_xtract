@@ -8,6 +8,8 @@ namespace eac_xtract
         static string[] SupportedPlatformList = [
             "win64", // Windows 64-bit OS, 64-bit start_protected_game, 64-bit game
             "win64_wow64", // todo
+            "winarm_x64_x64", // Windows ARM64 OS, 64-bit start_protected_game, 64-bit game
+            "winarm_x64_wow64", // todo
 
             "linux64", // Linux 64-bit OS, 64-bit start_protected_game, 64-bit game
             "linux32", // todo
@@ -29,6 +31,7 @@ namespace eac_xtract
         static string[] ImportantPlatformList =
         [
             "win64",
+            "winarm_x64_x64",
             "linux64",
             "mac64", // who invited my man :sob: blud thinks he's on the team
             "mac_arm64"
